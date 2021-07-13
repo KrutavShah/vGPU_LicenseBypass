@@ -11,7 +11,7 @@ A simple script that works around Nvidia vGPU licensing with a scheduled task.
 * The second 2 are to disable licensing notifications from the Nvidia driver.
 * Create a scheduled task to restart the Nvidia driver every day at 3 A.M.
 
-The original Powershell component in this script was written by Andrew H. at https://gist.github.com/neg2led and has been modified to suit this script better.
+The original Powershell component in this script was written by Andrew H. at https://gist.github.com/neg2led and has been modified to suit this script better. \
 (C) 2021 Krutav Shah
 
 Note that this script does not modify Nvidia's proprietary binaries in any way whatsoever. Nvidia vGPU technology is property of NVIDIA Corporation.
