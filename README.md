@@ -12,7 +12,7 @@ A simple script that works around Nvidia vGPU licensing with a scheduled task.
 * Create a scheduled task to restart the Nvidia driver every day at 3 A.M.
 
 ## Supported driver versions:
-The registry keys that are added by this tool only work in GRID 450 drivers and greater. It has been tested with drivers from 45x.xx to 46x.xx. Note that this script may not work with newer versions of the Nvidia GRID drivers if they choose to patch this workaround in future versions.
+The registry keys that are added by this tool only work up to Nividia's vGPU version 14.1 and has been reported to not work on later versions.
 
 The new version of this program has been written by Andrew H. at https://gist.github.com/neg2led.
 
